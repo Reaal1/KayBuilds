@@ -1,0 +1,104 @@
+
+.Kaybuilds-image{
+    
+}
+
+.nav-link{
+    font-size: 17px;
+}
+
+.navbar-nav{
+    gap: 15px;
+}
+
+.navbar-brand{
+    margin-left: 100px;
+    font-size: 35px;
+}
+
+.d-block{
+    width: 85%;
+    border-radius: 50px;
+}
+
+
+
+.navbar-nav{
+    margin-left: 400px;
+}
+
+.nav-contact{
+    display: flex;
+    gap: 30px;
+    margin-right: 150px;
+    margin-bottom: 15px;;
+}
+
+.portfolioncarousel{
+    background-color: #1A1110;
+    height: 100vh;
+}
+
+.fureverhomecarousel{
+    width: 100%;
+}
+
+.foodiecarousel{
+    width: 100%;
+}
+
+.archmovecarousel{
+    width: 100%;
+}
+
+.portfoliocarousel{
+    width: 100%;
+}
+
+.carouselanchor-tag{
+    text-decoration: none;
+    color: #1A1110;
+    font-weight: 600;
+}
+
+.checkthis{
+    color: black;
+}
+
+.checkthis1{
+    color: red;
+}
+
+.carouselanchor-tag:hover {
+  color: #65000B; /* hover effect */
+}
+
+.skill-container{
+    text-align: center;
+    
+}
+
+.vercel-logo{
+    background-color: white;
+}
+
+.navbar-footer {
+    font-size: 35px;
+    text-decoration: none;
+    color: #1A1110;
+    font-weight: 600;
+}
+
+.cooperation{
+    margin-left: 10px;
+}
+
+.lowersvg{
+    display: flex;
+    align-items: center;      
+    justify-content: center;
+}
+
+
+
+
