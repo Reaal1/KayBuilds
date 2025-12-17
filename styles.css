@@ -29,15 +29,12 @@ p{
 .navbar-brand{
     margin-left: 100px;
     font-size: 35px;
-    
-}
+  }
 
 .d-block{
     width: 85%;
     border-radius: 50px;
 }
-
-
 
 .navbar-nav{
     margin-left: 400px;
@@ -97,7 +94,6 @@ p{
 
 .skill-container{
     text-align: center;
-    
 }
 
 .vercel-logo{
@@ -130,13 +126,10 @@ p{
 
 .lowersvg{
     display: flex;
-    
     gap: 20px;
     align-items: center;      
     justify-content: center;
 }
-
-/*** Contact Page ***/
 
 .contact-body {
   font-family: 'Poppins', sans-serif; 
@@ -146,15 +139,12 @@ p{
   color: #333;
 }
 
-/* Contact section */
 .contact-me {
   text-align: center;
   margin-top: 40px;
   font-size: 2rem;
-
 }
 
-/* Form container */
 form {
   max-width: 600px;
   margin: 30px auto;
@@ -164,7 +154,6 @@ form {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* Labels */
 label {
   display: block;
   margin-top: 15px;
@@ -172,7 +161,6 @@ label {
   color: #444;
 }
 
-/* Inputs and textarea */
 input, textarea {
   width: 100%;
   padding: 12px;
@@ -189,8 +177,6 @@ input:focus, textarea:focus {
 }
 
     
-
-/* Submit button */
 .contact-button {
   margin-top: 20px;
   width: 100%;
@@ -209,7 +195,6 @@ input:focus, textarea:focus {
   background: #0056b3;
 }
 
-/* Back to portfolio link */
 .anchor-portfolio {
   display: block;
   text-align: center;
@@ -257,54 +242,43 @@ input:focus, textarea:focus {
   
   .d-block{
     width: 75%;
-    
-}
+  }
 
 .display-5{
    font-size: 40px;
 }
-
-
 }
 
 @media(max-width:1245px ){
   .col-lg-6  {
     
-    
-}
+  }
 }
 
 @media(max-width:1220px ){
   .row.g-5.py-5  {
     padding-left: 10px;
-    
-}
+  }
 }
 
 @media (max-width: 1200px) {
- 
-  .navbar-nav{
+   .navbar-nav{
     margin-left: 150px;
 }
 }
 
 @media (max-width: 1068px) {
-
- .d-block{
+   .d-block{
     width: 75%;
-    
-}
+  }
 
 .display-5{
    font-size: 35px;
 }
 }
 
- 
-
 @media (max-width: 991px) {
-
-  .navbar-toggler{
+.navbar-toggler{
     margin-right: 60px;
   }
 
@@ -323,18 +297,22 @@ input:focus, textarea:focus {
     width: 60px;
     height: 60px;
   }
-  
 }
-
 
 @media (max-width: 686px) {
-
-  
-
-
-.lowersvg{
-    flex-wrap: wrap
-    gap: 17px;
+ .lowersvg{
+    flex-wrap: wrap;
+    gap: 20px;
+}
 }
 
+@media (max-width: 576px) {
+.d-block {
+  width: 120%;
 }
+
+.navbar-brand{
+ margin-left: 20px;
+}
+}
+
