@@ -58,6 +58,14 @@ p{
     margin-bottom: 15px;;
 }
 
+.d-grid{
+  margin-top: 40px;
+}
+
+.hero-paragh{
+margin-top: 40px;
+}
+
 .portfolioncarousel{
     background-color: #1A1110;
     height: 100vh;
@@ -445,11 +453,46 @@ footer .wave#wave4 {
 
 @media (max-width: 576px) {
 .d-block {
-  width: 120%;
+  width: 60%;
 }
 
 .navbar-brand{
  margin-left: 20px;
+ 
+}
+
+.col-lg-6{
+  
+      
+       
+       
 }
 }
 
+@media (max-width: 450px) {
+.navbar-toggler{
+    margin-right: 30px;
+  }
+
+  .col-10{
+  
+    display:flex ;
+    justify-content: center;
+    align-items: center; 
+    margin-left: 35px;
+}
+
+.display-5{
+   font-size: 25px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+  }
+
+  .d-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
